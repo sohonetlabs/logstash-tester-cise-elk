@@ -1,4 +1,4 @@
-FROM logstash:2.3.1
+FROM logstash:2.3
 
 RUN logstash-plugin install --development
 RUN logstash-plugin install logstash-filter-ciseipdb
