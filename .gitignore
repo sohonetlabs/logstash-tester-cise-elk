@@ -1,0 +1,5 @@
+# Sample log files go in this directory
+samples/*
+puppet-controlrepo
+data/config
+*.swp
