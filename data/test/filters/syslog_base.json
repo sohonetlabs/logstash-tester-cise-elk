@@ -3,7 +3,7 @@
   "fields": {
     "type": "syslog"
   },
-  "ignore": ["@version", "@timestamp", "received_at", "received_from", "@source_host", "@message", "tags", "syslog_timestamp"],
+  "ignore": ["@version", "@timestamp", "received_at", "received_from", "@source_host", "@message"],
   "cases": [
     {
       "in": "<30>May 25 14:52:20 systemhostname dhclient: DHCPREQUEST of 10.99.146.149 on eth0 to 10.99.146.10 port 67 (xid=0x39dff989)",
@@ -17,7 +17,8 @@
         "syslog_facility_code": "3",
         "syslog_facility": "daemon",
         "syslog_severity": "informational",
-        "syslog_timestamp": "May 25 14:52:20"
+        "syslog_timestamp": "May 25 14:52:20",
+        "tags": [ "linux_syslog" ]
       }
     },
     {
@@ -32,7 +33,8 @@
         "syslog_facility_code": "3",
         "syslog_facility": "daemon",
         "syslog_severity": "informational",
-        "syslog_timestamp": "016-09-20T10:01:13.004695+01:00"
+        "syslog_timestamp": "016-09-20T10:01:13.004695+01:00",
+        "tags": [ "linux_syslog" ]
       }
     }
   ]
