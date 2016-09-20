@@ -33,7 +33,7 @@
         "syslog_facility_code": "3",
         "syslog_facility": "daemon",
         "syslog_severity": "informational",
-        "syslog_timestamp": "016-09-20T10:01:13.004695+01:00",
+        "syslog_timestamp": "2016-09-20T10:01:13.004695+01:00",
         "tags": [ "linux_syslog" ]
       }
     }
